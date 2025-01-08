@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NBInternationalPro-Regular';
+    src: url('fonts/NBInternationalPro-Regular.ttf') format('truetype');
+
+}
+
+body {
+    font-family: 'NBInternationalPro-Regular', sans-serif; 
+}
