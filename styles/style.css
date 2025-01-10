@@ -73,9 +73,52 @@ span{
 
 article{
     border-color: var(--main-background-color);
+    justify-content: center;
 }
 
 img{
     border-radius: 20px;
     width: 90% ;
 }
+
+dl{
+    display: flex ;
+    flex-direction: row;
+}
+
+/* Mobiel*/
+
+  
+  /* Tablet*/
+  @media (min-width: 768px) {
+    h1{
+        font-family: 'NBInternationalPro-Medium', sans-serif;
+        font-size: 8em;
+        text-transform: uppercase;
+    }
+    
+    .title-text{
+        font-family: 'NBInternationalPro-Medium', sans-serif;
+        font-size: 2em;
+        text-transform: uppercase;
+    
+    }
+  }
+  
+  /* Desktop */
+  @media (min-width: 1025px) {
+    h1{
+        font-family: 'NBInternationalPro-Medium', sans-serif;
+        font-size: 8em;
+        text-transform: uppercase;
+    }
+    
+    .title-text{
+        font-family: 'NBInternationalPro-Medium', sans-serif;
+        font-size: 2em;
+        text-transform: uppercase;
+    
+    }
+    
+  }
+  
