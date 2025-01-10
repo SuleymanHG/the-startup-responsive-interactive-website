@@ -32,8 +32,8 @@
 /* Custom properties */
 :root {
 
-    --primary-color:#050A1A;
-    --main-background-color:#DADFE3;
+    --primary-color:#DADFE3;
+    --main-background-color:#050A1A;
     --secondary-color:#AADC64;     
     --accent-one:#5E5AFF; 
     --accent-two:#17161C;
@@ -41,7 +41,6 @@
 
 
 }
-
 
 
 body {
@@ -58,6 +57,7 @@ h1{
     font-size: 3.5em;
     text-transform: uppercase;
 }
+
 
 .title-text{
     font-family: 'NBInternationalPro-Medium', sans-serif;
@@ -76,6 +76,21 @@ article{
 }
 
 img{
-    border-radius: 20px;
+    border-radius: 20px;    
     width: 90% ;
+}
+
+.green-circle{
+    background-color: var(--secondary-color);
+    border-radius: 1000px;
+    width: 100px;
+    height: 100px  ;
+    place-content: center center;
+}
+
+.green-circle p{
+    font-family: 'Plain-Regular',sans-serif;
+    text-align: center;
+    font-size: 0.7em;
+    color: var(--main-background-color);
 }
