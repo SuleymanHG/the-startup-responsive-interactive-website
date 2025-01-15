@@ -25,100 +25,234 @@
 
 @font-face {
     font-family: 'Plain-Regular';
-    src: url('fonts/Plain-Regular.ttf') format('truetype');
+    src: url('../fonts/Plain-Regular.ttf') format('truetype');
 
 }
 
 /* Custom properties */
 :root {
 
-    --primary-color:#050A1A;
-    --main-background-color:#DADFE3;
-    --secondary-color:#AADC64;     
-    --accent-one:#5E5AFF; 
-    --accent-two:#17161C;
-    --accent-three:#B45622;
+    --primary-color: #050A1A;
+    --main-background-color: #DADFE3;
+    --secondary-color: #AADC64;
+    --accent-one: #5E5AFF;
+    --accent-two: #17161C;
+    --accent-three: #B45622;
 
 
 }
-
-
 
 body {
-    overflow-x: hidden;
-    font-family: 'Plain-Regular', sans-serif; 
+    font-family: 'Plain-Regular', sans-serif;
     color: var(--primary-color);
     background-color: var(--main-background-color);
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h1+.title-text {
+    margin-top: 0;
 
 }
 
 
-h1{
+h1 {
     font-family: 'NBInternationalPro-Medium', sans-serif;
     font-size: 3.5em;
     text-transform: uppercase;
 }
 
-.title-text{
-    font-family: 'NBInternationalPro-Medium', sans-serif;
+.title-text {
     font-size: 1.5em;
     text-transform: uppercase;
-
 }
 
-span{
+span {
     color: var(--secondary-color);
 }
 
 
-article{
-    border-color: var(--main-background-color);
-    justify-content: center;
-}
+/* Article one  */
+.article-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 
-img{
+    background-image: url(../assets/img.jpg);
+    background-size: cover;
     border-radius: 20px;
-    width: 90% ;
+    color: var(--main-background-color);
+    /* position: relative; */
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+    width: 90%;
 }
 
-dl{
-    display: flex ;
-    flex-direction: row;
+.article-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    background-image: url(../assets/img2.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    color: var(--main-background-color);
+    /* position: relative; */
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+    width: 90%;
 }
+
+.article-three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    background-image: url(../assets/img3.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    color: var(--main-background-color);
+    /* position: relative; */
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+    width: 90%;
+}
+
+/* .article-one, .article-two, .article-three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    z-index: 1;
+
+}
+
+.article-one, .article-two, .article-three * {
+    position: relative;
+    z-index: 2;
+} */
+
+dl {
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    gap: 10px;
+}
+
+dt {
+    display: flex;
+    align-items: center;
+}
+
+dd {
+    margin: 0;
+}
+
+.text-content-article-one,
+.text-content-article-two,
+.text-content-article-three {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.article-one-map,
+.article-two-map,
+.article-three-map {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100px;
+    height: auto;
+    transform: translateX(-5em);
+    transform: translateY(1em);
+}
+
+
+/* Carousel swiping */
+
+.carousel {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  article {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  article.active {
+    top: 0;
+  }
+  
+  article.prev {
+    top: -100%;
+  }
+  
+
+
+
+
+
+
+img {
+    border-radius: 20px;
+    width: 80%;
+    /* transition: transform 0.5s ease; */
+}
+
+/* img:hover {
+    transform: scale(1.10);
+} */
+
+
+
 
 /* Mobiel*/
 
-  
-  /* Tablet*/
-  @media (min-width: 768px) {
-    h1{
+
+/* Tablet*/
+@media (min-width: 768px) {
+    h1 {
         font-family: 'NBInternationalPro-Medium', sans-serif;
         font-size: 8em;
         text-transform: uppercase;
     }
-    
-    .title-text{
+
+    .title-text {
         font-family: 'NBInternationalPro-Medium', sans-serif;
         font-size: 2em;
         text-transform: uppercase;
-    
+
     }
-  }
-  
-  /* Desktop */
-  @media (min-width: 1025px) {
-    h1{
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    h1 {
         font-family: 'NBInternationalPro-Medium', sans-serif;
-        font-size: 8em;
+        font-size: 10em;
         text-transform: uppercase;
     }
-    
-    .title-text{
+
+    .title-text {
         font-family: 'NBInternationalPro-Medium', sans-serif;
-        font-size: 2em;
+        font-size: 3em;
         text-transform: uppercase;
-    
+
     }
-    
-  }
-  
+
+}

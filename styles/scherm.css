@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'Plain-Light';
-    src: url('fonts/Plain-Light.ttf') format('truetype');
+    src: url('fonts/Plain-Light.ttf') format('truetype');   
 
 }
 
@@ -82,7 +82,7 @@ img{
 
 .green-circle{
     background-color: var(--secondary-color);
-    border-radius: 1000px;
+    border-radius: 50%;
     width: 100px;
     height: 100px  ;
     place-content: center center;
