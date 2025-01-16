@@ -35,9 +35,9 @@
     --primary-color: #050A1A;
     --main-background-color: #DADFE3;
     --secondary-color: #AADC64;
-    --accent-one: #5E5AFF;
-    --accent-two: #17161C;
-    --accent-three: #B45622;
+    --accent-purple: #5E5AFF;
+    --accent-dark: #17161C;
+    --accent-orange: #B45622;
 
 
 }
@@ -146,7 +146,7 @@ span {
 
 dl {
     display: flex;
-    flex-wrap: row;
+    flex-wrap:wrap;
     align-items: center;
     gap: 10px;
 }
@@ -179,31 +179,6 @@ dd {
 
 /* Carousel swiping */
 
-.carousel {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  article {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease;
-  }
-  
-  article.active {
-    top: 0;
-  }
-  
-  article.prev {
-    top: -100%;
-  }
-  
-
-
 
 
 
@@ -211,12 +186,9 @@ dd {
 img {
     border-radius: 20px;
     width: 80%;
-    /* transition: transform 0.5s ease; */
 }
 
-/* img:hover {
-    transform: scale(1.10);
-} */
+
 
 
 
