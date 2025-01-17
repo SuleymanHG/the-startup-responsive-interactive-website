@@ -79,14 +79,13 @@ h1 {
 
 
 
-
-    /* @media (min-width: 768px) {
+    @media (min-width: 768px) {
         font-size: var(--font-size-title-xl);
     }
-    
+
     @media (min-width: 1025px) {
         font-size: var(--font-size-title-xxxl);
-    } */
+    }
 }
 
 .title-text {
@@ -95,16 +94,13 @@ h1 {
     margin-top: 0;
 
 
-
-
-
-    /* @media (min-width: 768px) {
+    @media (min-width: 768px) {
         font-size: var(--font-size-xxl);
     }
 
     @media (min-width: 1025px) {
         font-size: var(--font-size-xxxl);
-    } */
+    }
 }
 
 
@@ -122,7 +118,6 @@ span {
 .carousel-container {
     position: relative;
     width: 100%;
-    max-width: 900px;
     overflow: hidden;
     margin-top: 20px;
 }
@@ -155,8 +150,8 @@ span {
 }
 
 .nav-button {
-    background-color:var(--accent-dark);
-    color:var(--main-background-color);
+    background-color: var(--accent-dark);
+    color: var(--main-background-color);
     border: none;
     padding: 10px 20px;
     font-size: 18px;
@@ -165,42 +160,19 @@ span {
 }
 
 .nav-button:hover {
-    background-color: var(--main-background-color) ;
+    background-color: var(--main-background-color);
     color: var(--accent-dark);
 }
 
 /* Article */
-.article-one{
+.article-one {
     background-image: url('../assets/img.jpg');
 }
 
-.article-two{
+.article-two {
     background-image: url('../assets/img2.jpg');
 }
 
-.article-three{
+.article-three {
     background-image: url('../assets/img3.jpg');
-}
-
-
-/* Responsive code  */
-@media (min-width: 768px) {
-
-    h1 {
-        font-size: var(--font-size-title-xl);
-    }
-
-    .title-text {
-        font-size: var(--font-size-xxl);
-    }
-}
-
-@media (min-width: 1025px) {
-    h1 {
-        font-size: var(--font-size-title-xxxl);
-    }
-
-    .title-text {
-        font-size: var(--font-size-xxxl);
-    }
 }

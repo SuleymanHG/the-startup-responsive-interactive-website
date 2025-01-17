@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let index = 0;
     const totalSlides = items.length;
-    const slideWidth = window.innerWidth - 20;
+    const slideWidth = window.innerWidth;
 
     function updateCarousel() {
         track.style.transition = "transform 0.5s ease-in-out";
