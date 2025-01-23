@@ -1,5 +1,4 @@
 # Ride-Out x Komoot 
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Projectdoel  
 Dit project heeft als doel een interactieve website te ontwikkelen die fietsroutes van Komoot voor Ride Out toont. De website wordt weergegeven op een scherm in de winkel en biedt bezoekers de mogelijkheid om via een QR-code de routes op hun mobiele telefoon te bekijken en door te klikken naar hun gewenste route.  
@@ -54,5 +53,9 @@ https://github.com/SuleymanHG/the-startup-responsive-interactive-website/blob/4d
 ### CSS nesting
 Voor duidelijkere code heb ik gebruik gemaakt van css nesting, alle classes/tags hun media querry zit genest. Hierdoor kan je alles op één plek wijzigen en is je code makkelijker te begrijpen.
 https://github.com/SuleymanHG/the-startup-responsive-interactive-website/blob/4dc1fc9a8b283091efa372be5350191b1f49ceb4/styles/style.css#L240-L253
+
+## LINkS
+[](url)
+Online website
 
 
