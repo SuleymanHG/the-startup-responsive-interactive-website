@@ -115,6 +115,21 @@
     dl  { 
         @media (min-width: 1025px) {
             margin-top: 750px;
+
+        }
+    }
+
+    .svg-map{
+        @media (min-width: 1025px) {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    svg{
+        @media (min-width: 1025px) {
+            width: 30px;
+            height: 20px;
         }
     }
 }
