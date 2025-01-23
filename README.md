@@ -32,6 +32,10 @@ We hebben de opdracht gekregen van Ride-out om een demo scherm te maken voor in 
 ### Animatie demo scherm
 De automatische slider in het demo scherm zorgt ervoor dat de fietsroutes continu worden weergegeven zonder handmatige interactie. Dit gebeurt met een oneindige animatie in CSS, waardoor de routes constant worden weergegeven. 
 
+## Klik interactie
+Voor de online websitepagina dat we als opdracht hebben gekregen moest een soort scroll interactie in zitten voor het bekijken van de verschillende routes.
+
+<img width="205" alt="image" src="https://github.com/user-attachments/assets/9b270169-384f-48db-be06-19c3d3d39e5a" />
 
 
 ## Bronnen
