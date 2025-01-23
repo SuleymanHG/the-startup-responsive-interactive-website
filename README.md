@@ -56,5 +56,5 @@ https://github.com/SuleymanHG/the-startup-responsive-interactive-website/blob/4d
 
 ## LINkS
 [Online website](https://suleymanhg.github.io/the-startup-responsive-interactive-website/)
-[Demo scherm]([Online website](https://suleymanhg.github.io/the-startup-responsive-interactive-website/))
+[Demo scherm](https://suleymanhg.github.io/the-startup-responsive-interactive-website/scherm.html)
 
