@@ -55,7 +55,6 @@ Voor duidelijkere code heb ik gebruik gemaakt van css nesting, alle classes/tags
 https://github.com/SuleymanHG/the-startup-responsive-interactive-website/blob/4dc1fc9a8b283091efa372be5350191b1f49ceb4/styles/style.css#L240-L253
 
 ## LINkS
-[](url)
-Online website
-
+[Online website](https://suleymanhg.github.io/the-startup-responsive-interactive-website/)
+[Demo scherm]([Online website](https://suleymanhg.github.io/the-startup-responsive-interactive-website/))
 
