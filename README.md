@@ -54,7 +54,7 @@ https://github.com/SuleymanHG/the-startup-responsive-interactive-website/blob/4d
 Voor duidelijkere code heb ik gebruik gemaakt van css nesting, alle classes/tags hun media querry zit genest. Hierdoor kan je alles op één plek wijzigen en is je code makkelijker te begrijpen.
 https://github.com/SuleymanHG/the-startup-responsive-interactive-website/blob/4dc1fc9a8b283091efa372be5350191b1f49ceb4/styles/style.css#L240-L253
 
-## LINkS
+## Links
 [Online website](https://suleymanhg.github.io/the-startup-responsive-interactive-website/)
 [Demo scherm](https://suleymanhg.github.io/the-startup-responsive-interactive-website/scherm.html)
 
