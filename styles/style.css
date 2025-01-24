@@ -155,7 +155,7 @@
 
 .text-qr-code{
     display: flex;
-        align-items: center;
+    align-items: center;
         flex-direction: row;
         gap: 30px;
     
